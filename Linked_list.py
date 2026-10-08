@@ -33,6 +33,7 @@ class LinkedList:
                 return
             prev.next=temp.next
             temp=None
+      
 
     def print(self):
         temp = self.head
